@@ -1,3 +1,5 @@
+#Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+#prints the max subaary like in this eg. it prints [4,-1,2,1].
 def maxsub(nums):
         add = [None] * len(nums)
         flag=0
